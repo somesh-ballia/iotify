@@ -76,6 +76,7 @@
             this.buttonOpenLog = new System.Windows.Forms.Button();
             this.rightClickMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toggleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label11 = new System.Windows.Forms.Label();
             this.tabPageGeneralConfiguration.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -170,47 +171,28 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(569, 56);
+            this.label9.Location = new System.Drawing.Point(569, 57);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 13);
+            this.label9.Size = new System.Drawing.Size(20, 13);
             this.label9.TabIndex = 15;
-            this.label9.Text = "Second";
+            this.label9.Text = "ms";
             // 
             // comboBoxTimeInterval
             // 
             this.comboBoxTimeInterval.FormattingEnabled = true;
             this.comboBoxTimeInterval.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
             "10",
-            "20",
-            "30",
-            "40",
             "50",
-            "60",
-            "70",
-            "80",
-            "90",
-            "120",
-            "150",
-            "180",
-            "210",
-            "240",
-            "270",
-            "300",
-            "330",
-            "360",
-            "390",
-            "420",
-            "450",
-            "480",
-            "510",
-            "540",
-            "570",
-            "600"});
+            "100",
+            "500",
+            "1000",
+            "2000",
+            "3000",
+            "4000",
+            "5000",
+            "10000",
+            "20000",
+            "50000"});
             this.comboBoxTimeInterval.Location = new System.Drawing.Point(114, 53);
             this.comboBoxTimeInterval.Name = "comboBoxTimeInterval";
             this.comboBoxTimeInterval.Size = new System.Drawing.Size(449, 21);
@@ -519,6 +501,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.label11);
             this.groupBox4.Controls.Add(this.buttonServiceStop);
             this.groupBox4.Controls.Add(this.buttonSaveConfig);
             this.groupBox4.Controls.Add(this.buttonServiceKill);
@@ -588,6 +571,15 @@
             this.toggleToolStripMenuItem.Name = "toggleToolStripMenuItem";
             this.toggleToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.toggleToolStripMenuItem.Text = "Toggle";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(230, 6);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(41, 13);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "V 2.0.1";
             // 
             // SignControlUI
             // 
@@ -671,6 +663,7 @@
         private System.Windows.Forms.ContextMenuStrip rightClickMenuStrip;
         private System.Windows.Forms.ToolStripMenuItem toggleToolStripMenuItem;
         private System.Windows.Forms.Button buttonToggle;
+        private System.Windows.Forms.Label label11;
 
     }
 }

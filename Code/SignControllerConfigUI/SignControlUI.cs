@@ -184,7 +184,7 @@ namespace SignController.ConfigurationUI
 
                 if (0 < m_Configuration.Setting.PollInterval_MS)
                 {
-                    long Value = (long)Math.Ceiling(((double)(m_Configuration.Setting.PollInterval_MS) / 1000));
+                    long Value = (long)Math.Ceiling(((double)(m_Configuration.Setting.PollInterval_MS)));
                     comboBoxTimeInterval.Text = Value.ToString();
                 }
 

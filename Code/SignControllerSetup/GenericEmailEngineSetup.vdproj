@@ -15,26 +15,26 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0145BDBED3A413D32599FE98FAB2613C"
-        "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
+        "MsmKey" = "8:_3CD42BCDFF033FDCCC883E0A2F6543AE"
+        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_59425870DCA3AD53D088C2254E353F43"
+        "MsmKey" = "8:_3CD42BCDFF033FDCCC883E0A2F6543AE"
         "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_59425870DCA3AD53D088C2254E353F43"
+        "MsmKey" = "8:_3CD42BCDFF033FDCCC883E0A2F6543AE"
         "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_59425870DCA3AD53D088C2254E353F43"
-        "OwnerKey" = "8:_0145BDBED3A413D32599FE98FAB2613C"
+        "MsmKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
+        "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -45,20 +45,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C5FACD5964C8BA5AFBBF19B64019D4BA"
+        "MsmKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
+        "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
         "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C5FACD5964C8BA5AFBBF19B64019D4BA"
-        "OwnerKey" = "8:_0145BDBED3A413D32599FE98FAB2613C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C5FACD5964C8BA5AFBBF19B64019D4BA"
-        "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
+        "MsmKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
+        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -76,31 +76,31 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_59425870DCA3AD53D088C2254E353F43"
+        "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0145BDBED3A413D32599FE98FAB2613C"
+        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C5FACD5964C8BA5AFBBF19B64019D4BA"
+        "OwnerKey" = "8:_3CD42BCDFF033FDCCC883E0A2F6543AE"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -250,15 +250,20 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0145BDBED3A413D32599FE98FAB2613C"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3CD42BCDFF033FDCCC883E0A2F6543AE"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:SignController, Version=2.0.0.0, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:SignControllerConfigManager, Version=2.0.0.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
+                    "_3CD42BCDFF033FDCCC883E0A2F6543AE"
+                    {
+                    "Name" = "8:SignControllerConfigManager.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
-            "SourcePath" = "8:SignController.dll"
+            "SourcePath" = "8:SignControllerConfigManager.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1C395A4D21574361B1CBB7EA5B9E29E7"
@@ -276,15 +281,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_59425870DCA3AD53D088C2254E353F43"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_403BE7338704AD09CADF26BBAE6ADBE7"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:SignControllerConfigManager, Version=2.0.0.0, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:SignController, Version=2.0.0.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
+                    "_403BE7338704AD09CADF26BBAE6ADBE7"
+                    {
+                    "Name" = "8:SignController.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
-            "SourcePath" = "8:SignControllerConfigManager.dll"
+            "SourcePath" = "8:SignController.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1C395A4D21574361B1CBB7EA5B9E29E7"
@@ -322,13 +332,18 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C5FACD5964C8BA5AFBBF19B64019D4BA"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BAF8D3489A7924D60F279BEA2732C903"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:ApplicationLogger, Version=2.0.0.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
+                    "_BAF8D3489A7924D60F279BEA2732C903"
+                    {
+                    "Name" = "8:ApplicationLogger.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:ApplicationLogger.dll"
             "TargetName" = "8:"
@@ -415,15 +430,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SignControlSystem"
-        "ProductCode" = "8:{57F57F07-6B99-48DD-827A-4A558827B6E5}"
-        "PackageCode" = "8:{C4F3895D-27B7-4381-9119-D7E4F744FA45}"
+        "ProductCode" = "8:{8594F8FB-E5E6-45E5-8A8C-1F445B1F1F1C}"
+        "PackageCode" = "8:{F5895822-9B2E-43D8-A82A-BDDC2446FFDA}"
         "UpgradeCode" = "8:{B4F8652E-5B5E-4BF9-A617-8461961178D0}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:2.0.0"
+        "ProductVersion" = "8:2.0.1"
         "Manufacturer" = "8:PreciseGroup"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

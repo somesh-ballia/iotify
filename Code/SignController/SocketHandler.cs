@@ -31,6 +31,7 @@ namespace SignController
             m_log = AppLogger.GetLog("xxxxxx_SocketHandler");
         }
 
+        
         public bool SendData(out String StatusMessage)
         {
             StatusMessage = "InActive";
@@ -41,10 +42,27 @@ namespace SignController
             
             try
             {
-                m_log.Information("Creating connection to IP :" + m_hostControl.IP + " Port :" + m_hostControl.Port,0,null);
-                
+                m_log.Information("Creating connection to IP :" + m_hostControl.IP + " Port :" + m_hostControl.Port, 0, null);
                 iStatus = Status.ENM_INACTIVE;
-                client = new TcpClient(m_hostControl.IP, m_hostControl.Port);
+                client = new TcpClient();
+                IAsyncResult ar = client.BeginConnect(m_hostControl.IP, m_hostControl.Port, null, null);
+                System.Threading.WaitHandle wh = ar.AsyncWaitHandle;
+
+                try
+                {
+                    if (!ar.AsyncWaitHandle.WaitOne(TimeSpan.FromMilliseconds(100), false))
+                    {
+                        client.Close();
+                        throw new TimeoutException();
+                    }
+
+                    client.EndConnect(ar);
+                }
+                finally
+                {
+                    wh.Close();
+                }
+
                 iStatus = Status.ENM_ACTIVE_NOT_RESPONDING;                
                 m_log.Information("Connection Created", 0, null);
                 

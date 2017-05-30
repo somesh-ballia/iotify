@@ -69,6 +69,7 @@
             this.buttonServiceStart = new System.Windows.Forms.Button();
             this.tabControlConfiguration = new System.Windows.Forms.TabControl();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.buttonServiceStop = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -76,7 +77,6 @@
             this.buttonOpenLog = new System.Windows.Forms.Button();
             this.rightClickMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toggleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label11 = new System.Windows.Forms.Label();
             this.tabPageGeneralConfiguration.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -516,6 +516,15 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Service Settings";
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(230, 6);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(41, 13);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "V 2.0.2";
+            // 
             // buttonServiceStop
             // 
             this.buttonServiceStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -571,15 +580,6 @@
             this.toggleToolStripMenuItem.Name = "toggleToolStripMenuItem";
             this.toggleToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
             this.toggleToolStripMenuItem.Text = "Toggle";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(230, 6);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 12;
-            this.label11.Text = "V 2.0.1";
             // 
             // SignControlUI
             // 

@@ -82,6 +82,12 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -95,12 +101,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -430,15 +430,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SignControlSystem"
-        "ProductCode" = "8:{8594F8FB-E5E6-45E5-8A8C-1F445B1F1F1C}"
-        "PackageCode" = "8:{F5895822-9B2E-43D8-A82A-BDDC2446FFDA}"
+        "ProductCode" = "8:{5B2AFC55-EDB0-4A80-B6B7-073FC0A7D004}"
+        "PackageCode" = "8:{5B18C7AD-7FA0-4C05-9445-CA2A17A315D8}"
         "UpgradeCode" = "8:{B4F8652E-5B5E-4BF9-A617-8461961178D0}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:2.0.1"
+        "ProductVersion" = "8:2.0.2"
         "Manufacturer" = "8:PreciseGroup"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

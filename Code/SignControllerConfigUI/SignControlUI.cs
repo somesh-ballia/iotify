@@ -106,7 +106,7 @@ namespace SignController.ConfigurationUI
                         try
                         {
                             lVal = Convert.ToInt32(comboBoxTimeInterval.Text);
-                            XMLConfiguration.Setting.PollInterval_MS = (lVal * 1000);
+                            XMLConfiguration.Setting.PollInterval_MS = lVal;
                         }
                         catch (System.Exception)
                         {

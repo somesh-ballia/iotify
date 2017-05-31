@@ -50,12 +50,11 @@ namespace SignController
 
                 try
                 {
-                    if (!ar.AsyncWaitHandle.WaitOne(TimeSpan.FromMilliseconds(100), false))
+                    if (!ar.AsyncWaitHandle.WaitOne(TimeSpan.FromMilliseconds(2000), false))
                     {
                         client.Close();
                         throw new TimeoutException();
                     }
-
                     client.EndConnect(ar);
                 }
                 finally

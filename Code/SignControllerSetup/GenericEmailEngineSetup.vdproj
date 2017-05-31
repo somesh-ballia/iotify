@@ -16,13 +16,13 @@
         "Entry"
         {
         "MsmKey" = "8:_3CD42BCDFF033FDCCC883E0A2F6543AE"
-        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
+        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_3CD42BCDFF033FDCCC883E0A2F6543AE"
-        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
+        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -52,13 +52,13 @@
         "Entry"
         {
         "MsmKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
-        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
+        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
-        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
+        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -82,6 +82,12 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -95,12 +101,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -430,15 +430,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SignControlSystem"
-        "ProductCode" = "8:{AA038629-D4C8-4E43-8649-7CFF3BB19321}"
-        "PackageCode" = "8:{028260BB-162C-486E-9C4F-B6C85699394D}"
+        "ProductCode" = "8:{B4CACF8F-48EA-42BA-81F4-513DF60F90A3}"
+        "PackageCode" = "8:{3CAA6D1B-FF7F-4E84-A3CA-2F281AFF4B54}"
         "UpgradeCode" = "8:{B4F8652E-5B5E-4BF9-A617-8461961178D0}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:2.0.3"
+        "ProductVersion" = "8:2.0.4"
         "Manufacturer" = "8:PreciseGroup"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

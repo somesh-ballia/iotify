@@ -39,6 +39,7 @@ namespace SignController
         public int GetValue(string resourceName)
         {
             int retValue = -1;
+            m_log.Information("GetValue called for :" + resourceName, 0, null);
 
             string tmpPath = m_StaginingDir + "\\" + m_fiRuntimeXML.Name;
             CopyFile(m_fiRuntimeXML, m_StaginingDir);
@@ -80,6 +81,7 @@ namespace SignController
 
             try
             {
+                m_log.Information("Deleting temp file :" + tmpPath, 0, null);
                 File.Delete(tmpPath);
                 m_log.Information("Deleted temp file :" + tmpPath,0,null);
             }
@@ -97,6 +99,7 @@ namespace SignController
         /// <param name="destFolder">Destination directory</param>
         void CopyFile(FileInfo fi, string destFolder)
         {
+            m_log.Information("Copying file :" + fi.Name, 0, null);
             string destPath = destFolder + "\\" + fi.Name;
             int retries = 0;
             bool success = false;
@@ -105,6 +108,7 @@ namespace SignController
             {
                 try
                 {
+                    m_log.Information("Trying to copy filr to " + destPath, 0, null);
                     fi.CopyTo(destPath, true);
                     m_log.Information("Successfully copied " + destPath, 0, null);
                     success = true;
@@ -114,6 +118,7 @@ namespace SignController
                 {
                     // if error then re-attempt after sleeping
                     fileException = ex;
+                    m_log.Error("[SLEEP] Error copying file to " + destPath, 0, fileException.ToString());
                     Thread.Sleep(RETRY_SLEEP_TIME);
                 }
             }

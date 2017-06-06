@@ -39,35 +39,20 @@ namespace SignController
             bool bIsSendSuccessful = false;
             TcpClient client = null;
             NetworkStream stream = null;
-            
+            iStatus = Status.ENM_INACTIVE;
+
             try
             {
                 m_log.Information("Creating connection to IP :" + m_hostControl.IP + " Port :" + m_hostControl.Port, 0, null);
-                iStatus = Status.ENM_INACTIVE;
-                client = new TcpClient();
-                IAsyncResult ar = client.BeginConnect(m_hostControl.IP, m_hostControl.Port, null, null);
-                System.Threading.WaitHandle wh = ar.AsyncWaitHandle;
-
-                try
-                {
-                    if (!ar.AsyncWaitHandle.WaitOne(TimeSpan.FromMilliseconds(2000), false))
-                    {
-                        client.Close();
-                        throw new TimeoutException();
-                    }
-                    client.EndConnect(ar);
-                }
-                finally
-                {
-                    wh.Close();
-                }
-
+                client = new TcpClient(m_hostControl.IP, m_hostControl.Port);           
                 iStatus = Status.ENM_ACTIVE_NOT_RESPONDING;                
                 m_log.Information("Connection Created", 0, null);
                 
                 // Translate the passed message into ASCII and store it as a Byte array.
                 TransferPDU pdu = new TransferPDU(m_hostControl.SerialAddress, m_RuntimeXMLOutput);
+                m_log.Information("PDU Created", 0, null);
                 Byte[] data = pdu.Serialize();
+                m_log.Information("PDU Searilized", 0, null);
                 stream = client.GetStream();
                 m_log.Information("Sending data :" + data[0].ToString() + "," +
                                    data[1].ToString() + "," +

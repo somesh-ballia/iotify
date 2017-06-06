@@ -136,6 +136,7 @@ namespace SignController
                             {
                                 m_log.Information("Fetching Value For :" + control.Name, 0, null);
                                 iValue = m_xmlHandler.GetValue(control.Name);
+                                m_log.Information("Fetching Complete For :" + control.Name, 0, null);
                             }
                             else
                             {
@@ -239,6 +240,7 @@ namespace SignController
                     byte[] Buffer = ASCIIEncoding.ASCII.GetBytes(serialized);
                     accessor.Write(54, Buffer.Length);
                     accessor.WriteArray(54 + 4, Buffer, 0, Buffer.Length);
+                    m_log.Information("Write Complete", 1, null);
                 }
             }
             catch (System.Exception ex)

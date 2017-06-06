@@ -36,7 +36,7 @@ namespace ApplicationLogger
             {
                 lock (m_fileSync)
                 {
-                    m_writer.WriteLine(entry.Timestamp.ToString("yyyy-MM-dd HH:mm:dd:ss.fff") + "\t" +
+                    m_writer.WriteLine(entry.Timestamp.ToString("yyyy-MM-dd HH:mm:ss.fff") + "\t" +
                         entry.LogName + "\t" +
                         entry.LevelName + "\t" +
                         entry.Thread + "\t" +

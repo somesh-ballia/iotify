@@ -16,12 +16,6 @@
         "Entry"
         {
         "MsmKey" = "8:_3CD42BCDFF033FDCCC883E0A2F6543AE"
-        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3CD42BCDFF033FDCCC883E0A2F6543AE"
         "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -29,6 +23,12 @@
         {
         "MsmKey" = "8:_3CD42BCDFF033FDCCC883E0A2F6543AE"
         "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3CD42BCDFF033FDCCC883E0A2F6543AE"
+        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -46,12 +46,6 @@
         "Entry"
         {
         "MsmKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
-        "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
         "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -59,6 +53,12 @@
         {
         "MsmKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
         "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
+        "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -75,6 +75,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F95B36329386E998F1C339836A53D202"
+        "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F95B36329386E998F1C339836A53D202"
+        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_C66C77B4943E4CAB85914779CFBBD5C5"
         "MsmSig" = "8:_UNDEFINED"
@@ -82,13 +94,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
+        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_403BE7338704AD09CADF26BBAE6ADBE7"
+        "OwnerKey" = "8:_EB2A9A7DD2384B70A832CC57AB60AD3D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -101,6 +113,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_BAF8D3489A7924D60F279BEA2732C903"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_F95B36329386E998F1C339836A53D202"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -242,7 +260,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.0"
+                "FrameworkVersion" = "8:v4.0"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
                 }
@@ -363,6 +381,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F95B36329386E998F1C339836A53D202"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:TRUE"
+            "AssemblyAsmDisplayName" = "8:System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_F95B36329386E998F1C339836A53D202"
+                    {
+                    "Name" = "8:System.ServiceModel.Internals.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.ServiceModel.Internals.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_1C395A4D21574361B1CBB7EA5B9E29E7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -430,15 +479,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SignControlSystem"
-        "ProductCode" = "8:{B4CACF8F-48EA-42BA-81F4-513DF60F90A3}"
-        "PackageCode" = "8:{3CAA6D1B-FF7F-4E84-A3CA-2F281AFF4B54}"
+        "ProductCode" = "8:{65C38363-D295-4E4F-9A6E-16FE60B7A131}"
+        "PackageCode" = "8:{610784EF-9529-43D7-8B98-AA03503820BB}"
         "UpgradeCode" = "8:{B4F8652E-5B5E-4BF9-A617-8461961178D0}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:2.0.4"
+        "ProductVersion" = "8:2.0.5"
         "Manufacturer" = "8:PreciseGroup"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
